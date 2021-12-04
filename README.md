@@ -1,6 +1,6 @@
 ## Advent of Code 2021
 
-This repo is my attempt to solve the problems for [Advent of Code 2021][aoc-2021] 
+This repo is my attempt to solve the problems for [Advent of Code 2021][https://adventofcode.com/] 
 in python programming language.
 
 Below is the goal for each solution
