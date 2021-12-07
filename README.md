@@ -7,7 +7,6 @@ Below is the goal for each solution
 
 - Solve the problem (ofcourse!!!)
 - Analyze the problem in terms of time and memory complexity (Think Big O!)
-- Note down the run time
 - Find a better method/solution
 
 _T/M stands for Time Memory Complexity_
@@ -22,3 +21,4 @@ _T/M stands for Time Memory Complexity_
 | [Day 4](https://adventofcode.com/2021/day/4)  | [Solution Day 4](./day4/day4.py)   |
 | [Day 5](https://adventofcode.com/2021/day/5)  | [Solution Day 5](./day5/day5.py)   |
 | [Day 6](https://adventofcode.com/2021/day/6)  | [Solution Day 6](./day6/day6.py)   |
+| [Day 7](https://adventofcode.com/2021/day/7)  | [Solution Day 7](./day7/day7.py)   |
