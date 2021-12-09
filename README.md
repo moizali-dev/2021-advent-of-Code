@@ -13,8 +13,8 @@ _T/M stands for Time Memory Complexity_
 
 ### Summary
 
-|             Problem                           | Solution                           | Time taken (Part A / Part B)
-|:----------------------------------------------|------------------------------------| ----------------------------
+|             Problem                           | Solution                           | Time taken (Part A / Part B) | Other Methods
+|:----------------------------------------------|------------------------------------| -----------------------------| --------------
 | [Day 1](https://adventofcode.com/2021/day/1)  | [Solution Day 1](./day1/day1.py)   |
 | [Day 2](https://adventofcode.com/2021/day/2)  | [Solution Day 2](./day2/day2.py)   |
 | [Day 3](https://adventofcode.com/2021/day/3)  | [Solution Day 3](./day3/day3.py)   |
@@ -22,4 +22,4 @@ _T/M stands for Time Memory Complexity_
 | [Day 5](https://adventofcode.com/2021/day/5)  | [Solution Day 5](./day5/day5.py)   |
 | [Day 6](https://adventofcode.com/2021/day/6)  | [Solution Day 6](./day6/day6.py)   |
 | [Day 7](https://adventofcode.com/2021/day/7)  | [Solution Day 7](./day7/day7.py)   |
-| [Day 8](https://adventofcode.com/2021/day/8)  | [Solution Day 8](./day8/day8.py)   |  ~15mins / ~ 180mins
+| [Day 8](https://adventofcode.com/2021/day/8)  | [Solution Day 8](./day8/day8.py)   |  ~15mins / ~ 180mins         | [Permutation](https://github.com/bennuttall/advent-of-code-2021/blob/main/08/08.ipynb)
