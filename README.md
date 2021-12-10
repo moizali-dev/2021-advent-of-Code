@@ -9,7 +9,7 @@ Below is the goal for each solution
 - Analyze the problem in terms of time and memory complexity (Think Big O!)
 - Find a better method/solution
 
-_T/M stands for Time Memory Complexity_
+_Time taken is the time taken to solve the problem_
 
 ### Summary
 
@@ -23,3 +23,5 @@ _T/M stands for Time Memory Complexity_
 | [Day 6](https://adventofcode.com/2021/day/6)  | [Solution Day 6](./day6/day6.py)   |
 | [Day 7](https://adventofcode.com/2021/day/7)  | [Solution Day 7](./day7/day7.py)   |
 | [Day 8](https://adventofcode.com/2021/day/8)  | [Solution Day 8](./day8/day8.py)   |  ~15mins / ~ 180mins         | [Permutation](https://github.com/bennuttall/advent-of-code-2021/blob/main/08/08.ipynb)
+| [Day 9](https://adventofcode.com/2021/day/9)  | [Solution Day 9](./day9/day9.py)   |  ~ Infinity         | 
+| [Day 10](https://adventofcode.com/2021/day/10)  | [Solution Day 10](./day10/day10.py)   |  ~45mins / ~ 300mins         | [Regex](https://github.com/SV-97/AdventOfCode2021/blob/main/Day_10_2/main.py)
