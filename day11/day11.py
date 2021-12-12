@@ -1,6 +1,6 @@
 import numpy as np
 
-def dumboOctopus(file):
+def dumboOctopus(file,part):
 
     list2d = []
 
@@ -9,6 +9,8 @@ def dumboOctopus(file):
             list2d.append(list(line.rstrip('\n')))
 
     array2d = np.array(list2d).astype(np.int32)
+
+    ttl_elements = array2d.shape[0] * array2d.shape[1]
 
     # Check all elements around the target element in array
     def check_num(i,j,arr):
@@ -94,29 +96,52 @@ def dumboOctopus(file):
 
             # print(arr)
 
-    flash_count = 0
-    for n in range(100):
+    if part == "part1":
+        flash_count = 0
+        for n in range(100):
 
 
-        array2d += 1
-        # Going through all the elements
-        for i in range(len(array2d)):
-            for j in range(len(array2d[i])):
+            array2d += 1
+            # Going through all the elements
+            for i in range(len(array2d)):
+                for j in range(len(array2d[i])):
 
-                # Check if there is a 10 in the array.
-                if ((array2d >= 10).sum()) > 0:
-                    x,y = np.where(array2d >= 10)
-                    # print(x,y)
-                    for num in range(len(x)):
-                        # print(x[num], y[num])
-                        check_num(x[num],y[num],array2d)
+                    # Check if there is a 10 in the array.
+                    if ((array2d >= 10).sum()) > 0:
+                        x,y = np.where(array2d >= 10)
+                        # print(x,y)
+                        for num in range(len(x)):
+                            # print(x[num], y[num])
+                            check_num(x[num],y[num],array2d)
 
-                check_num(i,j,array2d)
+                    check_num(i,j,array2d)
 
-        # print("Step",n+1,": ","\n", array2d)
-        flash_count += ((array2d == 0).sum())
-    return (flash_count)
+            # print("Step",n+1,": ","\n", array2d)
+            flash_count += ((array2d == 0).sum())
 
-    # return array2d
+        return(f'Solution for part 1: {flash_count}')
 
-print(dumboOctopus("day11/day11_2021_input"))
+    else:
+        for n in range(300):
+
+            array2d += 1
+            # Going through all the elements
+            for i in range(len(array2d)):
+                for j in range(len(array2d[i])):
+
+                    # Check if there is a 10 in the array.
+                    if ((array2d >= 10).sum()) > 0:
+                        x,y = np.where(array2d >= 10)
+                        # print(x,y)
+                        for num in range(len(x)):
+                            # print(x[num], y[num])
+                            check_num(x[num],y[num],array2d)
+
+                    check_num(i,j,array2d)
+
+            # print("Step",n+1,": ","\n", array2d)
+
+            if ((array2d == 0).sum() == ttl_elements):
+                return(n+1)
+
+print(dumboOctopus("day11/day11_2021_input", 'part2'))
