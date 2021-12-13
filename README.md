@@ -10,6 +10,7 @@ Below is the goal for each solution
 - Find a better method/solution
 
 _Time taken is the time taken to solve the problem_
+_Infinity means that it was not completed in one sitting_
 
 ### Summary
 
@@ -26,4 +27,5 @@ _Time taken is the time taken to solve the problem_
 | [Day 9](https://adventofcode.com/2021/day/9)  | [Solution Day 9](./day9/day9.py)   |  ~ Infinity         | 
 | [Day 10](https://adventofcode.com/2021/day/10)  | [Solution Day 10](./day10/day10.py)   |  ~45mins / ~ 300mins         | [Regex](https://github.com/SV-97/AdventOfCode2021/blob/main/Day_10_2/main.py)
 | [Day 11](https://adventofcode.com/2021/day/11)  | [Solution Day 11](./day11/day11.py)   |  ~ Infinity         |
-| [Day 12](https://adventofcode.com/2021/day/12)  | [Solution Day 12](./day12/day12.py)   |  ~ Infinity         | 
+| [Day 12](https://adventofcode.com/2021/day/12)  | [Solution Day 12](./day12/day12.py)   |  ~ Not completed         |
+| [Day 13](https://adventofcode.com/2021/day/13)  | [Solution Day 13](./day13/day13.py)   |       ~90mins / ~20mins                | 
