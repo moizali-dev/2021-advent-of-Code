@@ -49,8 +49,6 @@ def smokeBasin(file):
         except:
             pass
 
-        return lst
-
     # Check for each element in arr
     lst = []
     lowest_point = []
